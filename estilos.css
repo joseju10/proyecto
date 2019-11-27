@@ -1,0 +1,57 @@
+#footers {
+    color: white;
+}
+#navs {
+    background-color: #000;
+}
+#navs ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#navs ul li{
+    display: inline-block;
+}
+#navs ul li a{
+    color: white;
+    display: block;
+    padding: 10px 36px;
+    text-decoration: none;
+}
+#navs ul li a:hover{
+    background-color: #42B881;
+}
+#section {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(imagenes/fondo.png);
+    background-attachment: fixed;
+}
+footer {
+    width: 800px;
+    text-align: center;
+    border: 5px solid black;
+    margin-left: 22%;
+    background: -webkit-linear-gradient(90deg,  black 10%, gray 90%)
+}
+header {
+    width: 800px;
+    text-align: center;
+    border: 5px solid black;
+    margin-left: 22%;
+    background-color: black;
+}
+nav {
+    width: 800px;
+    border: 5px solid black;
+    margin-left: 22%;
+    background-color: black;
+}
+section{
+    width: 800px;
+    border: 5px solid black;
+    margin-left: 22%;
+    background: -webkit-linear-gradient(90deg,  gray 10%, black 90%)
+}
